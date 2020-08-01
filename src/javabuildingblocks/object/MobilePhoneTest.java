@@ -8,9 +8,9 @@ public class MobilePhoneTest {
         System.out.println("Please enter your name");
         String name=input.next();
         mobile.personName=name;
-        System.out.println("Please enter your passcode");
+        System.out.println("Please enter your passCode");
         String passcode=input.next();
-        mobile.passcode=passcode;
+        mobile.passCode=passcode;
         int exit=0;
         do{
             mobile.getInstructions();
@@ -18,7 +18,7 @@ public class MobilePhoneTest {
             int myOption=input.nextInt();
             switch (myOption){
                 case 1:
-                    System.out.println("Please enter your passcode");
+                    System.out.println("Please enter your passCode");
                     String code=input.next();
                     mobile.login(code);
                     break;

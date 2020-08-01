@@ -32,7 +32,6 @@ public class CatTest {
         System.out.println(cat.speed);
 
         Cat cat1=new Cat();
-
         cat1.name = "Princess";
         cat1.age = 3;
         cat1.kind = "Scottish";
@@ -43,7 +42,6 @@ public class CatTest {
         cat1.displayInfo();
         cat1.run("Schaumburg",15);
         cat1.displayInfo();
-
 
         }
     }

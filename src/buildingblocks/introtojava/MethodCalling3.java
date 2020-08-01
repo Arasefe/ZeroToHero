@@ -7,6 +7,6 @@ public static void main(String[]args){
         int height=555;
         count=count+1;
         }
- //   System.out.println(height+count);
+   // System.out.println(height+count);  unreachable statement
     }
 }

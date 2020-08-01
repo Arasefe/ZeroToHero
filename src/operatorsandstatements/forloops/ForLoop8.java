@@ -6,14 +6,14 @@ public class ForLoop8 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("Please enter first number");
-        int numberOne=input.nextInt();
+        int num1=input.nextInt();
         System.out.println("Please enter second number");
-        int numberTwo=input.nextInt();
+        int num2=input.nextInt();
 
 
         // int i;
-        for (numberOne=numberOne; numberOne<=numberTwo;numberOne++){
-            System.out.println(numberOne);
+        for (num1=num1; num1<=num2;num1++){
+            System.out.println(num1);
         }
     }
 }

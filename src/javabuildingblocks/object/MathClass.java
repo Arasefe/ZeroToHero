@@ -18,7 +18,6 @@ public class MathClass {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
-
         }
         return sum;
     }
@@ -28,8 +27,8 @@ public class MathClass {
 
         int sum=mat.sum(12,12,20,97,245,465);
         int numbers[]={12,12,20,97,245,465};
-            System.out.println(mat.sum1(numbers)+"sum from sum1");
-            System.out.println(sum+"sum from sum");
-            System.out.println(sum+"sum from sum");
+            System.out.println(mat.sum1(numbers)+" sum from sum1");
+            System.out.println(sum+" sum from sum");
+            System.out.println(sum+" sum from sum");
     }
 }

@@ -37,7 +37,7 @@ public class Cat {
         speed=currentSpeed;
     }
     public void run() {
-        start();            // speed 10, isRunning true;
+        start();                                        // speed 10, isRunning true;
         System.out.println("The cat is running");
     }
     public void run(String destination){

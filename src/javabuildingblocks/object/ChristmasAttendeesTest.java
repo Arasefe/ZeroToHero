@@ -10,7 +10,6 @@ public class ChristmasAttendeesTest {
         System.out.println("John has a gift of : " +attendee1.giftName);
         System.out.println("Kate has a gift of : " + attendee2.giftName);
 
-
         ChristmasAttendees ismail = new ChristmasAttendees("Ismail", null);
         ChristmasAttendees omer = new ChristmasAttendees("Omer", "diamond");
         ChristmasAttendees.giftExchange(attendee1, attendee2);
@@ -20,6 +19,6 @@ public class ChristmasAttendeesTest {
 
         ChristmasAttendees.giftExchange(ismail,omer);
         System.out.println("I have no gift but thank you though");
-       ChristmasAttendees.updateGift("temp","canta");
+        ChristmasAttendees.updateGift("temp","canta");
     }
 }

@@ -1,7 +1,7 @@
 package buildingblocks.introtojava;
 
 public class MethodCalling1 {
-    static int birds=10;
+    static int birds=10;                        // static variable
 
     public static void main(String[] args) {
         int trees=5;

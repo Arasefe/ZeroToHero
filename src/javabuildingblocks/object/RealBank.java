@@ -54,6 +54,7 @@ public class RealBank {
             }
         }while (exit!=5);
         System.out.println("Thank you for working with our bank");
+
         //TASK: implement cases for other functionalities
     }
 }

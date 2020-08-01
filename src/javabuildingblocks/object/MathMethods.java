@@ -49,7 +49,7 @@ public class MathMethods {
         task
         Write the method will take one parameter as a String value. It will print all the char from String value.
          */
-        test.printLetter("Techtorial Academy");
+        test.printLetter("TechGuru Academy");
         test.printLetter("School");
 
     }

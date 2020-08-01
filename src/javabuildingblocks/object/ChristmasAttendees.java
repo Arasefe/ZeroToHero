@@ -15,10 +15,6 @@ public class ChristmasAttendees {
         this.giftName = giftName;
     }
 
-
-
-
-
     // Methods
         public static void giftExchange(ChristmasAttendees attendee1, ChristmasAttendees attendee2) {
             boolean hasGift=true;

@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class ReversedForLoop {
     public static void main(String[] args) {
-        /*Print Techtorial Acadmy last char to first char.
+        /*
+        Print a string in a reversed way.
          */
         Scanner input=new Scanner(System.in);
         System.out.println("What is the string that you want to reverse: ");

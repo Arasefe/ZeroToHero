@@ -15,9 +15,9 @@ public class BankAccount {
     String accountOpenDate;
     String username;
     String password;
-    boolean islogin=false;
+    boolean isLogin=false;
     public void displayInfo(){
-        if(islogin) {
+        if(isLogin) {
             System.out.println("The person name is " + personName);
             System.out.println("Bank name is " + bankName);
             System.out.println("Account number is " + accountNumber);
@@ -29,7 +29,7 @@ public class BankAccount {
         }
     }
     public double deposit(double amount){
-        if(islogin) {
+        if(isLogin) {
             balance += amount;
         }else{
             System.out.println("Please first login");
@@ -37,7 +37,7 @@ public class BankAccount {
         return balance;
     }
     public double withdraw(double amount){
-        if (islogin) {
+        if (isLogin) {
             if (amount <= balance) {
                 balance -= amount;
             } else {
@@ -53,12 +53,12 @@ public class BankAccount {
             System.out.println("Welcome to the "+bankName+" account");
             System.out.println("You have successfully signed to the your account");
             displayInfo();
-            islogin=true;
-            return islogin;
+            isLogin=true;
+            return isLogin;
         }else{
             System.out.println("Your username or password is incorrect. Please try later.");
         }
-        return islogin;
+        return isLogin;
     }
     public void signUp(String personName, int accountNumber, double balance, String username, String password, String accountOpenDate ){
         this.personName=personName;
@@ -69,9 +69,9 @@ public class BankAccount {
     }
     public void getInstruction(){
         System.out.println("To Display the info press 0");
-        System.out.println("To Deposit the money press 1");
-        System.out.println("To Withdraw the money press 2");
-        System.out.println("To signUp press 3");
+        System.out.println("To Deposit money press 1");
+        System.out.println("To Withdraw money press 2");
+        System.out.println("To sign up press 3");
         System.out.println("To login press 4");
         System.out.println("To exit the application press 5");
     }

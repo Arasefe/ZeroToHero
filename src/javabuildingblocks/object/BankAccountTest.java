@@ -4,11 +4,11 @@ public class BankAccountTest {
     public static void main(String[] args) {
     BankAccount account=new BankAccount();
 
-    account.personName="Ismail";
+    account.personName="Aras Efe";
     account.bankName="Chase";
     account.accountNumber=123456;
     account.accountOpenDate="5/12/2019";
-    account.username="Techtorial";
+    account.username="Techguru";
     account.password="Tech2200";
 
     account.displayInfo();

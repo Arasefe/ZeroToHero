@@ -14,7 +14,7 @@ public class TernaryPractice3 {
         System.out.println("+++++++++++++++++++++++++");
         ternary();
     }
-    public static void ternary(){           // Method
+    public static void ternary(){           
         int a=10;
         int b=(a>5)? a*a:a*a*a;
         System.out.println(b);

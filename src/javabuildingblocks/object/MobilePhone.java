@@ -10,7 +10,7 @@ public class MobilePhone {
      */
     String brand;
     String personName;
-    String passcode;
+    String passCode;
     String [] contactList=new String[10];
     String [] phoneNumbers=new String[10];
     boolean isLogin;
@@ -82,7 +82,7 @@ public class MobilePhone {
         return null;
     }
     public boolean login(String passcode){                                  //8th method
-        if(this.passcode.equals(passcode)){
+        if(this.passCode.equals(passcode)){
             System.out.println("Welcome "+brand+"!");
             isLogin=true;
             return isLogin;

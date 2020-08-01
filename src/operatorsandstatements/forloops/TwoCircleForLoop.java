@@ -7,7 +7,7 @@ public class TwoCircleForLoop {
         Scanner input=new Scanner(System.in);
         System.out.println("Please enter the name of the founder of modern Turkey");
         String founder=input.nextLine();
-        System.out.println("Please enter the name of the modern day warrior");
+        System.out.println("Please enter the second name");
         String warrior=input.nextLine();
 
         Scanner scanner=new Scanner (System.in);
